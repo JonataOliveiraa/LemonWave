@@ -1,0 +1,7 @@
+@layer utilities {
+  .image-pixelated {
+    image-rendering: pixelated;
+    /* Include vendor prefixes for broader compatibility if needed */
+    -webkit-optimize-contrast: pixelated;
+  }
+}

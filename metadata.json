@@ -1,0 +1,6 @@
+
+{
+  "name": "LemonWave",
+  "description": "An interactive tool for Terraria modders to preview SoundIDs, test pitch/volume variations, and generate TModLoader code snippets.",
+  "requestFramePermissions": []
+}

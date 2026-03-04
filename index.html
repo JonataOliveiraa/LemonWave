@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LemonWave</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Jersey+10&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        :root {
+            /* Light Theme (Default) */
+            --bg-canvas: #ffffff;
+            --bg-secondary: #f6f8fa;
+            --bg-tertiary: #ffffff;
+            --border-default: #d0d7de;
+            --fg-default: #24292f;
+            --fg-muted: #57606a;
+            --accent-fg: #0969da;
+            --code-bg: #f6f8fa;
+            --logo-filter: none;
+        }
+
+        .dark {
+            /* Dark Theme */
+            --bg-canvas: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #21262d;
+            --border-default: #30363d;
+            --fg-default: #c9d1d9;
+            --fg-muted: #8b949e;
+            --accent-fg: #58a6ff;
+            --code-bg: #0d1117;
+            --logo-filter: invert(1);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-canvas);
+            color: var(--fg-default);
+            overflow: hidden;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        
+        .code-font {
+            font-family: 'Fira Code', monospace;
+        }
+        
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-canvas);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-default);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--fg-muted);
+        }
+        
+        .github-border {
+            border: 1px solid var(--border-default);
+        }
+        .github-bg-secondary {
+            background-color: var(--bg-secondary);
+        }
+        .github-bg-tertiary {
+            background-color: var(--bg-tertiary);
+        }
+        
+        @keyframes slide-in-left {
+          from { transform: translateX(-100%); }
+          to { transform: translateX(0); }
+        }
+        .animate-slide-in-left {
+          animation: slide-in-left 0.3s ease-out;
+        }
+
+        /* Generic range style reset */
+        input[type=range] {
+          -webkit-appearance: none;
+          background: transparent;
+        }
+        input[type=range]:focus {
+          outline: none;
+        }
+        input[type=range]::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          height: 16px;
+          width: 16px;
+          border-radius: 50%;
+          background: var(--fg-default);
+          cursor: pointer;
+          margin-top: -6px;
+          border: 1px solid var(--border-default);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        input[type=range]::-webkit-slider-runnable-track {
+          width: 100%;
+          height: 4px;
+          cursor: pointer;
+          background: var(--border-default);
+          border-radius: 2px;
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+            extend: {
+                fontFamily: {
+                sans: ['"Host Grotesk"', 'sans-serif'],
+                righteous: ['"Righteous"', 'sans-serif'],
+                mono: ['"Fira Code"', 'monospace'],
+                // Aqui estava o erro! Tinha que ser "Jersey 10"
+                pixel: ['"Jersey 10"', 'cursive'] 
+                },
+                screens: {
+                'xs': '475px',
+                }
+            }
+            }
+        }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
