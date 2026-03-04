@@ -7,7 +7,7 @@ import { SoundControls } from './components/SoundControls';
 import { CodeSnippet } from './components/CodeSnippet';
 import { Library } from './components/Library';
 import { Visualizer } from './components/Visualizer';
-import LogoEmpty from './public/logo_empty.png'
+import LogoEmpty from './assets/logo_empty.png'
 const PAGE_SIZE = 50;
 
 const App: React.FC = () => {
