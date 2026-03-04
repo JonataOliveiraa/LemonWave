@@ -1,7 +1,7 @@
 
 class AudioEngine {
-  public context: AudioContext;
-  public analyser: AnalyserNode;
+   context: AudioContext;
+   analyser: AnalyserNode;
   private buffers: Map<string, AudioBuffer> = new Map();
 
   constructor() {

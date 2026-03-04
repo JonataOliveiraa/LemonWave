@@ -41,7 +41,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173). Place `.wav` files in `public/sounds/` following the naming in `constants.ts`. Missing files fall back to a synthesized beep so the UI stays functional.
+Open [http://localhost:5173](http://localhost:5173). Place `.wav` files in `/sounds/` following the naming in `constants.ts`. Missing files fall back to a synthesized beep so the UI stays functional.
 
 ---
 
