@@ -1,0 +1,125 @@
+LemonEngine Non-Commercial License (NCL)
+Version 1.0 — 2025
+
+Copyright (c) 2025 Lemon Studio / JonataOliveiraa
+https://github.com/JonataOliveiraa/LemonWave
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. DEFINITIONS
+
+   "Software" refers to LemonWave and all associated source code, assets,
+   documentation, and configuration files distributed under this license.
+
+   "Licensor" refers to Lemon Studio and its contributors.
+
+   "You" (or "Your") refers to any individual or legal entity exercising the
+   permissions granted by this license.
+
+   "Derivative Work" means any work that is based on or derived from the
+   Software, including modifications, translations, adaptations, or any other
+   work that incorporates a substantial portion of the Software.
+
+   "Commercial Use" means any use of the Software or a Derivative Work that
+   is primarily intended for or directed toward commercial advantage or
+   monetary compensation, including but not limited to: selling, licensing
+   for a fee, offering as part of a paid product or service, or using in
+   a commercial SaaS platform.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. GRANT OF RIGHTS
+
+   Subject to the conditions set forth in this license, the Licensor hereby
+   grants You a worldwide, royalty-free, non-exclusive license to:
+
+   a) USE the Software for personal, educational, or non-commercial purposes;
+
+   b) COPY and DISTRIBUTE verbatim or modified copies of the Software,
+      provided that all conditions of this license are met;
+
+   c) MODIFY and CREATE Derivative Works of the Software for non-commercial
+      purposes;
+
+   d) CONTRIBUTE improvements, bug fixes, or features back to the original
+      project via pull requests.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. CONDITIONS
+
+   Any exercise of the rights granted above must comply with the following
+   conditions:
+
+   a) ATTRIBUTION — All copies or substantial portions of the Software,
+      including Derivative Works, must retain this license file, the original
+      copyright notice, and a clear attribution to "LemonWave by Lemon Studio"
+      in any documentation, user interface, or distribution package.
+
+   b) SHARE-ALIKE — If You distribute a Derivative Work, it must be licensed
+      under this same LemonEngine Non-Commercial License (NCL) v1.0 or a later
+      version published by Lemon Studio. You may not apply any additional
+      restrictions that limit others' rights beyond what this license permits.
+
+   c) NON-COMMERCIAL — You may not exercise any rights granted under this
+      license for Commercial Use. This includes, but is not limited to:
+
+        · Selling the Software or any Derivative Work as a standalone product;
+        · Bundling the Software into a paid application or subscription service;
+        · Offering the Software as a hosted service in exchange for payment;
+        · Monetizing the Software through paywalls, premium tiers, or
+          one-time purchase fees.
+
+      Free hosting of the Software (e.g., on GitHub Pages, Vercel, Netlify,
+      or similar platforms) is permitted, provided no fee is charged to end
+      users for access to the Software itself.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. CONTRIBUTIONS
+
+   By submitting contributions (code, assets, documentation, or otherwise)
+   to this project, You agree that Your contributions are made under the
+   terms of this license and that the Licensor may include them in the
+   Software under these same terms.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. DISCLAIMER OF WARRANTIES
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+   IN NO EVENT SHALL THE LICENSOR OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR DISTRIBUTION OF THE
+   SOFTWARE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. TERMINATION
+
+   Your rights under this license terminate automatically if You fail to
+   comply with any of its terms. Upon termination, You must cease all use
+   and distribution of the Software and any Derivative Works.
+
+   The Licensor may reinstate Your rights at their sole discretion upon
+   written notice.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7. COMMERCIAL LICENSING
+
+   If You wish to use the Software for Commercial purposes, You must obtain
+   a separate commercial license from the Licensor. To inquire, contact the
+   project via the official Discord server:
+
+   https://discord.gg/J2xFF4cDk9
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+END OF TERMS AND CONDITIONS
